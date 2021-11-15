@@ -1,0 +1,101 @@
+.contain{
+  background-color: rgb(45, 202, 150);
+  padding-bottom: 5px;
+}
+.navTitle{
+  color: #fff;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 50px;
+  padding-left: 80px;
+  align-items: center;
+}
+.navTitle:hover{
+  color: #7303c0;  /* fallback for old browsers */
+  color: -webkit-linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e);  /* Chrome 10-25, Safari 5.1-6 */
+  color: linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  transition: 1.5s ease-in-out all;
+}
+@media (max-width:670px) {
+  .navTitle{
+    font-size: 40px;
+    padding-left: 10px;
+  }
+  .nav{
+    display: none;
+  }
+}
+
+.navLink{
+  float: right;
+  display: flex;
+  padding-top: 20px;
+}
+.nav{
+  font-size: 25px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  margin-right: 70px;
+}
+.nav:hover{
+  color: #ff00ef;
+  transition: 0.5s ease-in-out all;
+}
+@media (max-width:1221px) {
+  .nav{
+    font-size: 20px;
+    padding: 15px;
+    align-items: center;
+    margin-right: 30px;
+  }
+}
+@media (max-width:1092px) {
+  .nav{
+    display: none;
+  }
+  /* mobile hamburget menu */
+  .menu-trigger,
+  .menu-trigger div {
+    width: 40px; 
+    height: 5px;
+    display : inline-block;
+    transition : all .4s;
+    box-sizing : border-box;
+    margin-right: 10px;
+    align-items: center;
+  }
+  .menu-trigger {
+    position : relative;
+    width : 50px;
+    height : 44px;
+  }
+  .menu-trigger div {
+    position : absolute;
+    left : 0;
+    width : 100%;
+    height : 4px;
+    background-color : #fff;
+    border-radius : 4px;
+  }
+  .menu-trigger div:nth-of-type(1) {
+    top : 0;
+  }
+  .menu-trigger div:nth-of-type(2) {
+    top : 15px;
+  }
+  .menu-trigger div:nth-of-type(3) {
+    bottom: 10px; 
+  }
+}
+
+/* Hero section */
+.hero{
+  background-color: aqua;
+}
+.introduce{
+
+}
+.slideContainer{
+
+}
