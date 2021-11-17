@@ -1,6 +1,10 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 .contain{
   background-color: rgb(45, 202, 150);
-  padding-bottom: 5px;
+  padding-bottom: 10px;
 }
 .navTitle{
   color: #fff;
@@ -91,11 +95,116 @@
 
 /* Hero section */
 .hero{
-  background-color: aqua;
+  background-color: #303030;
+  width: 100%;
+  height: auto;
+  padding-bottom: 20px;
+}
+.heroContainer{
+  padding-top: 10px;
+  
 }
 .introduce{
-
+  color: #fff;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 15px;
+}
+.introduce:last-child{
+  color: #ec38bc;
+  cursor: crosshair ;
+}
+.slideBack{
+  background: rgba(223, 41, 168, 0.2);
+  padding-bottom: 20px;
+}
+.slideBack .title{
+  text-align: center;
+  margin-top: 0px;
+  color: yellow;
+  font-size: 30px;
 }
 .slideContainer{
+  width: 50%;
+  margin: auto;
+  overflow: hidden;
+}
+.slides{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  width: 100%;
+  height: 500px;
+}
+#prevBtn{
+  position: absolute;
+  top: 55%;
+  z-index:auto;
+  left:4%;
+  font-size: 50px;
+  cursor: pointer;
+}
 
+#nextBtn{
+  position: absolute;
+  top: 55%;
+  z-index: auto;
+  right: 10%;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+/* About */
+
+.aboutContainer{
+  background-color: rosybrown;
+  width: 100%;
+  height: 500px;
+}
+.aboutContainer .title{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 0;
+}
+.container{
+  display: flex;
+}
+.aboutMe{
+ font-size: 30px;
+ flex-wrap: wrap;
+ font-weight: 400;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding-left: 60px;
+ text-align: justify;
+ 
+}
+.aboutMe a button{
+  background-color: cornflowerblue;
+  text-align: justify;
+  font-size: 20px;
+  color: #fff;
+  display: inline-block;
+  padding: 12px 36px;
+  border-radius: 10%;
+  border:1px solid #03001e;
+  transition: 0.5s ease-in all;
+}
+.aboutMe a button:hover{
+  background: #03001e;
+}
+.nana{
+  width: 50%;
+  position: relative;
+  bottom: 20px;
+  right: 50px;
+  float: right;
+  border-radius: 50%;
+}
+.mapBack{
+
+}
+.googleMap{
 }

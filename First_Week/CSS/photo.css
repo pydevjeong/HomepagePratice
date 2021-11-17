@@ -1,0 +1,33 @@
+.slideBack{
+  margin: 0;
+  height: 0;
+}
+.slideContainer{
+  width: 50%;
+  margin: auto;
+  overflow: hidden;
+}
+.slides{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  width: 100%;
+  height: 500px;
+}
+#prevBtn{
+  position: absolute;
+  top: 50%;
+  z-index:auto;
+  left:4%;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+#nextBtn{
+  position: absolute;
+  top: 50%;
+  z-index: auto;
+  right: 10%;
+  font-size: 50px;
+  cursor: pointer;
+}
